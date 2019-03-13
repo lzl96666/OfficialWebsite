@@ -5,10 +5,10 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 
 //ip&port
-var hostName = '192.168.0.133';
-var port = 3000;
+var hostName = '172.17.61.226';
+var port = 8040;
 
-//设置需要渲染的目录下模板文件 lzl
+//设置需要渲染的目录下模板文件
 app.set("views", "public");
 app.set("view engine", "ejs");
 //静态资源
@@ -19,7 +19,7 @@ var rootRouter = require('./routes/root');
 
 app.use('/', rootRouter);
 
-app.listen(port, hostName, function() {
+app.listen(port,hostName , function() {
 
     console.log(`服务器运行在http://${hostName}:${port}`);
 
