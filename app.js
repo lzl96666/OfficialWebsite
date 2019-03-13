@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 var hostName = '192.168.0.133';
 var port = 3000;
 
-//设置需要渲染的目录下模板文件
+//设置需要渲染的目录下模板文件 lzl
 app.set("views", "public");
 app.set("view engine", "ejs");
 //静态资源
