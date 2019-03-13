@@ -1,0 +1,215 @@
+.clean {
+    clear: both;
+}
+
+.content {
+    max-width: 1920px;
+}
+
+.content .banner {
+    width: 100%;
+    height: 380px;
+    background-repeat: no-repeat;
+    background-image: url(../../image/sample-report.jpg);
+    background-position: center center;
+}
+
+.content .item1 {
+    width: 100%;
+    height: 560px;
+    background: rgba(249, 249, 249, 1);
+}
+
+.item1 .content1 {
+    width: 1200px;
+    height: 440px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.item1 .content1 .item {
+    float: left;
+    width: 378px;
+    height: 438px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(235, 235, 235, 1);
+    margin-right: 20px;
+    text-align: center;
+}
+
+.item1 .content1 .item i {
+    display: block;
+    width: 378px;
+    height: 176px;
+    background-size: 378px 176px;
+    background-repeat: no-repeat;
+}
+
+.item1 .content1 .item .common-disease {
+    background-image: url(../../image/common-disease.png);
+}
+
+.item1 .content1 .item .tumour-disease {
+    background-image: url(../../image/tumour-disease.png);
+}
+
+.item1 .content1 .item .common-infectious {
+    background-image: url(../../image/common-infectious.png);
+}
+
+.item1 .content1 .item .cnname {
+    font-size: 28px;
+    font-family: PingFangSC-Medium;
+    font-weight: 500;
+    color: rgba(64, 69, 73, 1);
+    line-height: 27px;
+}
+
+.item1 .content1 .item .enname {
+    font-size: 18px;
+    font-family: PingFangSC-Light;
+    font-weight: 300;
+    color: rgba(153, 153, 153, 1);
+    line-height: 18px;
+    margin-top: 8px;
+}
+
+.item1 .content1 .item .summary {
+    font-size: 18px;
+    font-family: PingFangSC-Regular;
+    font-weight: 400;
+    color: rgba(100, 111, 119, 1);
+    line-height: 29px;
+    margin-top: 31px;
+    padding: 0 30px;
+}
+
+
+/* 疾病报告显示 */
+
+.content .disease-item {
+    width: 100%;
+    height: 898px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.content .graybackground {
+    background: rgba(249, 249, 249, 1);
+}
+
+.disease-item .disease-content {
+    width: 1200px;
+    /* height: 898px; */
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* 疾病报告标题 */
+
+.disease-item .disease-content .title {
+    padding-top: 60px;
+}
+
+.disease-item .disease-content .title .name {
+    font-size: 36px;
+    font-family: PingFangSC-Medium;
+    font-weight: 500;
+    color: rgba(64, 69, 73, 1);
+    line-height: 36px;
+    letter-spacing: 2px;
+    vertical-align: middle;
+    margin: 0 14px;
+}
+
+.disease-item .disease-content .title .line {
+    display: inline-block;
+    width: 134px;
+    height: 1px;
+    background: rgba(230, 230, 230, 1);
+}
+
+
+/* 疾病报告图片展示 */
+
+.disease-item .disease-content .images {
+    width: 100%;
+    height: 800px;
+    margin-top: 40px;
+}
+
+.disease-item .disease-content .images i {
+    display: inline-block;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+.disease-item .disease-content .images :nth-child(2) {
+    margin: 0 44px 0 41px;
+}
+
+.disease-item .disease-content .images .report01 {
+    line-height: 560px;
+    width: 329px;
+    height: 560px;
+    background-size: 329px 560px;
+    background-image: url(../../image/report01.png);
+}
+
+.disease-item .disease-content .images .report02 {
+    width: 380px;
+    height: 720px;
+    background-size: 380px 720px;
+    background-image: url(../../image/report02.png);
+}
+
+.disease-item .disease-content .images .report03 {
+    width: 329px;
+    height: 560px;
+    background-size: 329px 560px;
+    background-image: url(../../image/report03.png);
+}
+
+.disease-item .disease-content .images .report04 {
+    line-height: 560px;
+    width: 329px;
+    height: 560px;
+    background-size: 329px 560px;
+    background-image: url(../../image/report04.png);
+}
+
+.disease-item .disease-content .images .report05 {
+    width: 380px;
+    height: 720px;
+    background-size: 380px 720px;
+    background-image: url(../../image/report05.png);
+}
+
+.disease-item .disease-content .images .report06 {
+    width: 329px;
+    height: 560px;
+    background-size: 329px 560px;
+    background-image: url(../../image/report06.png);
+}
+
+.disease-item .disease-content .images .report07 {
+    line-height: 560px;
+    width: 329px;
+    height: 560px;
+    background-size: 329px 560px;
+    background-image: url(../../image/report07.png);
+}
+
+.disease-item .disease-content .images .report08 {
+    width: 380px;
+    height: 720px;
+    background-size: 380px 720px;
+    background-image: url(../../image/report08.png);
+}
+
+.disease-item .disease-content .images .report09 {
+    width: 329px;
+    height: 560px;
+    background-size: 329px 560px;
+    background-image: url(../../image/report09.png);
+}

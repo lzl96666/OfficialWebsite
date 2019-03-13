@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible " content="ie=edge ">
+    <title>国脉生物-国脉生物官网</title>
+    <link rel="stylesheet" href="./js/swiper/swiper.min.css">
+    <link rel="stylesheet" href="./css/mobile-common.css">
+    <link rel="stylesheet" href="./css/mobile-index.css">
+
+
+</head>
+
+<body>
+    <div id="header"></div>
+    <!-- main -->
+    <div class="main">
+        <!-- banner -->
+        <div class="swiper-container banner">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide img"><img src="./image/mobile/banner1.png"></div>
+                <div class="swiper-slide img"><img src="./image/mobile/banner2.jpg" onclick="fnToProduct()"></div>
+                <div class="swiper-slide img"><img src="./image/mobile/banner3.jpg"></div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+        </div>
+        <!-- 解密数字。。 -->
+        <div class="item">
+            <div class="digital container">
+                <div class="title">解密数字生命，改变未来生活</div>
+                <div class="subTitle">推动精准基因健康医疗普惠大众的速度</div>
+                <div class="item-list">
+                    <span class="item">
+                        <span class="head"><i class="digital01"></i></span>
+                    <div class="item-title">领先的科研团队</div>
+                    <span class="detail">引进全球基因尖端领域德国马普所计算生物学科学家团队</span>
+                    </span>
+                    <span class="item">
+                        <span class="head"><i class="digital02"></i></span>
+                    <div class="item-title">千元级检测技术</div>
+                    <span class="detail">拥有全球首个千元级的个人全基因组二代测序检测技术</span>
+                    </span>
+                    <span class="item">
+                        <span class="head"><i class="digital03"></i></span>
+                    <div class="item-title">两库一平台</div>
+                    <span class="detail">自动化大数据分析检测平台和强大的全基因组数据库和DNA样本库</span>
+                    </span>
+                    <span class="item">
+                        <span class="head"><i class="digital04"></i></span>
+                    <div class="item-title">大数据解读能力</div>
+                    <span class="detail">自主研发高性能计算机集群的分布式计算，保持数据精度和完整性</span>
+                    </span>
+                    <span class="item">
+                        <span class="head"><i class="digital05"></i></span>
+                    <div class="item-title">检测精度及完整性</div>
+                    <span class="detail">同时检测和解读2000+的基因项目，数据持续更新，支持无限解读</span>
+                    </span>
+
+                </div>
+            </div>
+        </div>
+        <!-- 祖源 -->
+        <div class="item bgGrey">
+            <div class="parentage container">
+                <div class="container-title">分享你的<span class="pink">祖源</span></div>
+                <div class="container-subTitle">你的DNA可以告诉你，你的祖先在500多年前的生活。按地区分类，探索您的祖先。我们祖先的每一次选择，无论是狩猎还是采摘，选择与谁结婚，都决定了现在的你和我。</div>
+                <img src="./image/mobile/zyuan.png" alt="">
+            </div>
+        </div>
+        <!-- 健康指南 -->
+        <div class="item">
+            <div class="guide container">
+                <div class="container-title"><span class="green">健康</span>指南</div>
+                <div class="container-subTitle">关心自己与家人的健康，从健康基因检测开始！透过检测，您将更了解身体的情况，轻松根据检测的结果，做最有效的健康风险管理。</div>
+                <img class="img01" src="./image/mobile/guide01.png" alt="">
+                <img class="img02" src="./image/mobile/guide02.png" alt="">
+            </div>
+        </div>
+        <!-- 疾病风险 -->
+        <div class="item disease">
+            <div class="container">
+                <div class="top">
+                    <div class="title container-title">疾病风险</div>
+                    <div class="subTitle container-subTitle">每个人都是独一无二个体，要怎么找到人与疾病间关系呢？如何从基因DNA中，了解未来的人生命运？预防医学基因检测，实现了这个理想！面对疾病的威胁，人们将从原本的听天由命进而反转局势，掌握主导权，规划健康美丽的人生！</div>
+                </div>
+                <div class="item-list">
+                    <div class="item">
+                        <i class="icon icon01"></i>
+                        <span class="chinses-name">常见疾病</span>
+                        <span class="english-name">Common disease</span>
+                    </div>
+                    <div class="item">
+                        <i class="icon icon02"></i>
+                        <span class="chinses-name">肿瘤疾病</span>
+                        <span class="english-name">Tumour disease</span>
+                    </div>
+                    <div class="item">
+                        <i class="icon icon03"></i>
+                        <span class="chinses-name">常见传染病</span>
+                        <span class="english-name">Common infectious</span>
+                    </div>
+                    <div class="item">
+                        <i class="icon icon04"></i>
+                        <span class="chinses-name">罕见疾病</span>
+                        <span class="english-name">Rare disease</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 儿童基因 -->
+        <div class="gene item">
+            <div class="container">
+                <div class="container-title"><span class="blue">儿童</span>基因</div>
+                <div class="container-subTitle">儿童基因遗传病那边保留，高度近视的拿段改成“及早获得孩子的基因信息，了解孩子的用药安全，营养代谢，天赋优势等等更多详情，为孩子健康成长，试性发展奠定基础”。</div>
+            </div>
+            <img class="img" src="./image/mobile/gene.png" alt="">
+        </div>
+        <!-- 女性关怀 -->
+        <div class="women item">
+            <div class="container">
+                <div class="container-title"><span class="pink">女性</span>关怀</div>
+                <div class="container-subTitle">基因检测打破了传统检测的局限性，不仅能在检测的过程中减少对于女性的创伤，而且检测内容更为广泛。除了宫颈癌、乳腺癌等高发肿瘤和常见疾病的基因易感检测外，还有孕妇叶酸代谢能力检测，肌肤抗衰老等个性检测项目，为女性健康提供专属关爱。</div>
+            </div>
+            <div class="img">
+                <img class="img" src="./image/mobile/women.png" alt="">
+            </div>
+        </div>
+        <!-- 基因头条APP查看报告 -->
+        <div class="item bgGrey">
+            <div class="report container">
+                <div class="container-title">基因头条APP，便捷查阅报告</div>
+                <div class="report-item">
+                    <div class="report-row">
+                        <img class="img-left" src="./image/mobile/report01.png">
+                        <img class="img-right" src="./image/mobile/report02.png">
+                    </div>
+                    <div class="report-row">
+                        <img class="img-left" src="./image/mobile/report03.png">
+                        <img class="img-right" src="./image/mobile/report04.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 回到顶部 -->
+    <div id="toTop"></div>
+    <!-- 脚部 -->
+    <div id="footer"></div>
+
+</body>
+
+<script src="./js/jquery.min.js"></script>
+<script src="./js/rem.js"></script>
+<script src="./js/swiper/swiper.min.js"></script>
+<script src="./js/mobile-common.js"></script>
+<script src="./js/mobile-index.js"></script>
+
+
+</html>

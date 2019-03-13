@@ -1,0 +1,411 @@
+.content {
+    max-width: 1920px;
+    background-color: rgba(255, 255, 255, 1)
+}
+
+.content .banner {
+    width: 100%;
+    height: 380px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../../image/chanpin.jpg);
+    background-position: center center;
+}
+
+.content .item1 {
+    width: 100%;
+    height: 1321px;
+}
+
+
+/* 内容 */
+
+.content .item1 .item1-content {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 71px 0;
+}
+
+
+/* 产品简介 */
+
+.item1 .item1-content .pro-name {
+    text-align: center;
+    color: #404549;
+    font-size: 36px;
+    font-weight: medium;
+    line-height: 36px;
+    letter-spacing: 2px;
+}
+
+.item1 .item1-content .pro-summary {
+    text-align: center;
+    margin-top: 31px;
+}
+
+.item1 .item1-content .pro-summary p {
+    font-size: 18px;
+    font-family: PingFangSC-Regular;
+    font-weight: 400;
+    color: rgba(100, 111, 119, 1);
+    line-height: 29px;
+}
+
+
+/* 产品价格 */
+
+.item1 .item1-content .pro-price {
+    text-align: center;
+    margin-top: 29px;
+}
+
+.item1 .item1-content .unit {
+    font-size: 24px;
+    font-family: PingFangSC-Regular;
+    font-weight: 400;
+    color: rgba(239, 64, 61, 1);
+    line-height: 24px;
+}
+
+.item1 .item1-content .price {
+    font-size: 48px;
+    font-family: Arial-BoldMT;
+    font-weight: normal;
+    color: rgba(239, 64, 61, 1);
+    line-height: 48px;
+}
+
+
+/* 立即购买 */
+
+.item1 .item1-content .buybtn {
+    width: 150px;
+    height: 48px;
+    background: rgba(0, 148, 234, 1);
+    border-radius: 24px;
+    margin: 0 auto;
+    margin-top: 35px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    line-height: 48px;
+    /* 鼠标移入按钮范围时出现手势 */
+    cursor: pointer;
+}
+
+.item1 .item1-content .buybtn:hover {
+    /* 鼠标移入按钮范围时改变颜色 */
+    background: #0085d2;
+}
+
+
+/* 产品特性 */
+
+.item1 .item1-content .pro-features img {
+    display: block;
+    width: 100%;
+    height: 440px;
+    margin-top: 75px;
+}
+
+
+/* 产品表格 */
+
+.item1 .item1-content .pro-details {
+    margin-top: 38px;
+}
+
+.pro-details .product-table {
+    width: 1200px;
+    border: 1px solid rgb(230, 230, 230);
+}
+
+.pro-details .product-table tr:nth-child(3) {
+    height: 125px;
+}
+
+.pro-details .product-table td {
+    width: 33.3%;
+    height: 89px;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(119, 119, 119, 1);
+    line-height: 8px;
+    letter-spacing: 1px;
+}
+
+.pro-details .product-table .product-column {
+    height: 100%;
+    padding: 13px 30px 13px 25px;
+}
+
+.pro-details .product-table .product-column .icon {
+    width: 27px;
+    height: 27px;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+
+.pro-details .product-table .product-column .summary {
+    font-size: 20px;
+    font-family: PingFangSC-Regular;
+    font-weight: 400;
+    color: rgba(100, 111, 119, 1);
+    line-height: 26px;
+    margin-top: 5px;
+}
+
+.pro-details .product-table .product-column .icon2 {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-left: 27px;
+    margin-top: 5px;
+}
+
+
+/* 检测项目 */
+
+.content .item2 {
+    width: 100%;
+    height: 3097px;
+    background: rgba(249, 249, 249, 1);
+    padding-bottom: 50px;
+}
+
+
+/* 检测内容部分 */
+
+.item2 .item2-content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* 标题 */
+
+.item-top {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 69px;
+}
+
+.item-top .name {
+    font-size: 36px;
+    font-family: PingFangSC-Medium;
+    font-weight: 500;
+    color: rgba(64, 69, 73, 1);
+    line-height: 36px;
+    letter-spacing: 2px;
+    vertical-align: middle;
+    margin: 0 14px;
+}
+
+.item-top .line {
+    display: inline-block;
+    width: 134px;
+    height: 1px;
+    background: rgba(230, 230, 230, 1);
+}
+
+
+/* 检测项目表格 */
+
+.item2-content .item-table {
+    margin-top: 48px;
+    width: 100%;
+}
+
+.item-table span {
+    vertical-align: top;
+    float: left;
+}
+
+.item-table table thead th {
+    height: 180px;
+    background: rgb(255, 255, 255);
+}
+
+.item-table table thead th .table-head {
+    height: 100%;
+}
+
+.item-table table thead th .table-head img {
+    width: 80px;
+    height: 80px;
+    margin: 20px 0 18px 0;
+}
+
+.item-table table tbody tr {
+    height: 60px;
+    text-align: center;
+    font-size: 16px;
+    font-family: PingFang-SC-Regular;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    line-height: 20px;
+}
+
+
+/* 设置tr的背景颜色 */
+
+.item-table table tbody tr:nth-child(odd) {
+    background: rgb(249, 249, 249);
+}
+
+.item-table table tbody tr:nth-child(even) {
+    background: rgb(255, 255, 255);
+}
+
+
+/* 设置表格容器span的宽度 */
+
+.item-table .item-table-1 {
+    width: 400px;
+}
+
+.item-table .item-table-2 {
+    width: 550px;
+}
+
+.item-table .item-table-3 {
+    width: 250px;
+}
+
+
+/* 设置表格边框 */
+
+.item-table .item-table-1 .table1 {
+    width: 100%;
+    border-top: 1px solid rgb(230, 230, 230);
+    border-left: 1px solid rgb(230, 230, 230);
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.item-table .item-table-2 .table2 {
+    border: 1px solid rgb(230, 230, 230);
+    width: 100%;
+}
+
+.item-table .item-table-3 .table3 {
+    border-top: 1px solid rgb(230, 230, 230);
+    border-right: 1px solid rgb(230, 230, 230);
+    border-bottom: 1px solid rgb(230, 230, 230);
+    width: 100%;
+}
+
+
+/* 设置表格列的宽度 */
+
+.item-table .item-table-1 .table1 tr td:nth-child(1) {
+    width: 50%;
+}
+
+.item-table .item-table-2 .table2 tr td:nth-child(1) {
+    width: 33.3%;
+}
+
+.item-table .item-table-2 .table2 tr td:nth-child(2) {
+    width: 33.3%;
+}
+
+.item-table table tr td .sex-img {
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+}
+
+.item-table table tr td .table-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+
+/* 适用人群 */
+
+.content .item3 {
+    width: 100%;
+    height: 792px;
+    position: relative;
+    z-index: 0;
+}
+
+
+/* 内容部分 */
+
+.content .item3 .item3-content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.item3-content .people {
+    margin-top: 31px;
+    width: 1200px;
+    height: 201px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 6px 9px 15px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: PingFang-SC-Regular;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+
+.item3-content .people img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+.item3-content .people .people1 {
+    padding: 63px 0 31px 121px;
+}
+
+.item3-content .people .people2 {
+    padding-left: 121px;
+}
+
+.item3-content .people .people2 .people2-2 {
+    margin-left: 81px;
+    margin-right: 70px;
+}
+
+.item3 .people-img {
+    position: absolute;
+    width: 100%;
+    height: 535px;
+    top: 257px;
+    background-image: url(../../image/forpeople.jpg);
+    background-position: center center;
+    z-index: -1;
+}
+
+
+/* 服务流程 */
+
+.content .item4 {
+    width: 100%;
+    height: 1113px;
+}
+
+
+/* 内容部分 */
+
+.content .item4 .item4-content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.item4 .item4-content .service-process {
+    margin: 51px auto 0 auto;
+    width: 844px;
+    height: 880px;
+    background-size: 844px 880px;
+    background-repeat: no-repeat;
+    background-image: url(../../image/service-process.png);
+}

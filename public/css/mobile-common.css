@@ -1,0 +1,243 @@
+body {
+    font-size: 0.26rem;
+    color: rgba(51, 51, 51, 1);
+    font-family: PingFangSC-Light;
+    line-height: 0.39rem;
+    background: rgba(255, 255, 255, 1);
+    margin: 0;
+    padding-top: 1.26rem;
+    letter-spacing: 0;
+}
+
+
+/* 头部 */
+
+.header {
+    width: 100%;
+    height: 1.24rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    border-bottom: 2px solid rgba(218, 218, 218, 1);
+    background: rgba(255, 255, 255, 1);
+}
+
+.header .logo {
+    display: inline-block;
+    width: 2.18rem;
+    height: 0.64rem;
+    background-image: url(../image/logo.png);
+    background-size: 2.18rem 0.64rem;
+    background-repeat: no-repeat;
+}
+
+.header .menu {
+    display: inline-block;
+    width: 0.52rem;
+    height: 0.39rem;
+    background-image: url(../image/mobile/icon_daohang.png);
+    background-size: 0.52rem 0.39rem;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0.43rem;
+    left: 0.5rem
+}
+
+.header .close {
+    display: inline-block;
+    width: 0.42rem;
+    height: 0.42rem;
+    background-image: url(../image/mobile/icon_close.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0.43rem;
+    left: 0.5rem
+}
+
+.header .menu-open {
+    display: none;
+    position: absolute;
+    top: 1.26rem;
+    left: 0;
+    width: 100%;
+    height: 12.1rem;
+    background: rgba(255, 255, 255, 1);
+    z-index: 99;
+    color: rgba(64, 69, 73, 1);
+    padding: 0.1rem 0.8rem 0.1rem 0.8rem;
+}
+
+.header .menu-open .menu-item {
+    width: 80%;
+    height: 0.85rem;
+    border-bottom: 1px solid rgba(218, 218, 218, 1);
+    display: flex;
+    align-items: center;
+}
+
+
+/* 回到顶部 */
+
+.toTop {
+    width: 100%;
+    height: 1.06rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toTop span {
+    font-size: 0.28rem;
+    line-height: 0.28rem
+}
+
+.toTop i {
+    display: inline-block;
+    width: 0.24rem;
+    height: 0.24rem;
+    background-image: url(../image/mobile/toTop.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 0.12rem;
+}
+
+
+/* 脚部 */
+
+.footer {
+    background: rgba(46, 48, 51, 1);
+    font-size: 0.30rem;
+    line-height: 0.42rem;
+    letter-spacing: 1px;
+    padding: 0.6rem 0.5rem 0.36rem 0.5rem;
+    color: rgba(133, 146, 158, 1);
+}
+
+.footer .phone {}
+
+.footer .phone .head {
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-image: url(../image/mobile/kefu.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-right: 0.34rem;
+}
+
+.footer .phone .right {
+    display: inline-block;
+}
+
+.footer .phone .right .title {
+    display: inline-block;
+    font-size: 0.36rem;
+    line-height: 0.5rem;
+    letter-spacing: 0.02rem;
+}
+
+.footer .phone .right .number {
+    display: block;
+    font-size: 0.54rem;
+    font-family: Arial-BoldMT;
+    color: rgba(255, 255, 255, 1);
+    line-height: 0.65rem;
+    margin-top: 0.12rem;
+}
+
+.footer .address {
+    margin-top: 0.42rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid rgba(102, 102, 102, 1);
+}
+
+.footer .address span {
+    display: block;
+    margin-top: 0.14rem;
+    letter-spacing: 0.01rem
+}
+
+.footer .address span:first-child {
+    margin-top: 0
+}
+
+.footer .address .title {
+    font-size: 0.36rem;
+    line-height: 0.5rem;
+    letter-spacing: 0.02rem
+}
+
+
+/* 
+.footer .item-list {
+    padding: 0.6rem 0;
+}
+
+.footer .item-list .item {
+    margin-top: 0.37rem;
+    text-align: left;
+}
+
+.footer .item-list .item:first-child {
+    margin-top: 0;
+}
+
+.footer .item-list .item span {
+    margin-right: 0.2rem;
+    vertical-align: middle;
+}
+
+.footer .item-list .item i {
+    display: inline-block;
+    width: 0.32rem;
+    height: 0.32rem;
+    background-image: url(../image/mobile/icon_xiangqing.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+} */
+
+.footer .app {
+    padding-top: 0.36rem;
+    padding-bottom: 0.36rem;
+    border-bottom: 1px solid rgba(102, 102, 102, 1);
+    display: flex;
+    justify-content: center;
+}
+
+.footer .app .qrcode {
+    display: inline-block;
+    max-width: 2.4rem;
+    text-align: center;
+    font-size: 0.22rem;
+    line-height: 0.3rem;
+    vertical-align: top;
+    flex-grow: 1
+}
+
+.footer .app .qrcode .img {
+    display: inline-block;
+    width: 1.56rem;
+    height: 1.56rem;
+}
+
+.footer .app .qrcode span {
+    display: block;
+    width: 2.0rem
+}
+
+.footer .author {
+    text-align: center;
+    font-size: 0.22rem;
+    line-height: 0.3rem;
+    letter-spacing: 0.01rem;
+    padding: 0.24rem 0 0.36rem 0;
+}
+
+.footer .author .beian {
+    margin-top: 0.1rem
+}

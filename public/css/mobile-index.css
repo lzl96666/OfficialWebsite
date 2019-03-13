@@ -1,0 +1,294 @@
+    /* main */
+    /* banner */
+    
+    .main {}
+    
+    .main .banner {
+        width: 100%;
+        height: 6.4rem;
+    }
+    
+    .main .banner .img img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    /* main基础 */
+    
+    .item {
+        width: 100%;
+    }
+    
+    .item .container {
+        width: 6.7rem;
+        margin: 0 auto;
+        padding-top: 0.6rem;
+    }
+    
+    .bgGrey {
+        background: rgba(249, 249, 249, 1);
+    }
+    
+    .pink {
+        color: rgba(243, 100, 100, 1);
+    }
+    
+    .green {
+        color: rgba(73, 150, 18, 1);
+    }
+    
+    .blue {
+        color: rgba(22, 146, 223, 1);
+    }
+    
+    .container .container-title {
+        color: rgba(64, 69, 73, 1);
+        font-size: 0.42rem;
+        line-height: 0.5rem;
+    }
+    
+    .container .container-subTitle {
+        text-align: left;
+        margin-top: 0.24rem;
+        letter-spacing: 0.01rem;
+    }
+    /* 解密数字 */
+    
+    .digital {
+        height: auto;
+        text-align: center;
+    }
+    
+    .digital .title {
+        color: rgba(64, 69, 73, 1);
+        font-size: 0.42rem;
+        line-height: 0.5rem;
+    }
+    
+    .digital .subTitle {
+        color: rgba(100, 111, 119, 1);
+        line-height: 0.28rem;
+        margin-top: 0.24rem;
+    }
+    
+    .digital .item-list {
+        width: 100%;
+        margin-top: 0.62rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .digital .item-list .item {
+        display: inline-block;
+        width: 3.35rem;
+        text-align: center;
+        padding-bottom: 0.36rem;
+    }
+    
+    .digital .item-list .item .head {
+        display: inline-block;
+        margin-bottom: 0.2rem;
+    }
+    
+    .digital .item-list .item .head i {
+        display: inline-block;
+        width: 2.4rem;
+        height: 2.4rem;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .digital .item-list .item .head i.digital01 {
+        background-image: url(../image/mobile/digital-01.png);
+    }
+    
+    .digital .item-list .item .head i.digital02 {
+        background-image: url(../image/mobile/digital-02.png);
+    }
+    
+    .digital .item-list .item .head i.digital03 {
+        background-image: url(../image/mobile/digital-03.png);
+    }
+    
+    .digital .item-list .item .head i.digital04 {
+        background-image: url(../image/mobile/digital-04.png);
+    }
+    
+    .digital .item-list .item .head i.digital05 {
+        background-image: url(../image/mobile/digital-05.png);
+    }
+    
+    .digital .item-list .item .item-title {
+        color: rgba(100, 111, 119, 1);
+        font-size: 0.34rem;
+        line-height: 0.34rem;
+        margin-bottom: 0.16rem;
+    }
+    
+    .digital .item-list .item .detail {
+        display: inline-block;
+        width: 2.7rem;
+        color: rgba(133, 146, 158, 1);
+    }
+    /* 祖源 */
+    
+    .parentage {
+        text-align: center;
+    }
+    
+    .parentage img {
+        width: 100%;
+        height: 100%;
+        margin: 0.5rem 0;
+    }
+    /* 指南 */
+    
+    .guide {
+        text-align: center;
+    }
+    
+    .guide img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .guide img.img01 {
+        margin-top: 0.2rem;
+    }
+    
+    .guide img.img02 {
+        margin: 0.5rem 0;
+    }
+    /* 疾病风险 */
+    
+    .disease {
+        width: 100%;
+        height: 10.23rem;
+        background: url(../image/mobile/disease-bg.png);
+        background-size: 100% 100%;
+        color: rgba(255, 255, 255, 1);
+    }
+    
+    .disease .top {
+        background: linear-gradient(173deg, rgba(2, 12, 74, 0.3) 0%, rgba(0, 178, 246, 0.3) 100%);
+        border-radius: 0.12rem;
+        margin-top: 0.2rem;
+        text-align: center;
+        padding: 0.42rem 0.37rem 0.49rem 0.37rem;
+    }
+    
+    .disease .top .title {
+        color: rgba(255, 255, 255, 1);
+    }
+    
+    .disease .top .subTitle {
+        margin-top: 0.13rem;
+        color: rgba(255, 255, 255, 1);
+    }
+    
+    .disease .item-list {
+        width: 100%;
+        margin-top: 0.71rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .disease .item-list .item {
+        display: inline-block;
+        width: 3.35rem;
+        text-align: center;
+        padding-bottom: 0.4rem;
+    }
+    
+    .disease .item-list .item .icon {
+        display: inline-block;
+        width: 1.18rem;
+        height: 1.18rem;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .disease .item-list .item .icon01 {
+        background-image: url(../image/mobile/disease-icon01.png);
+    }
+    
+    .disease .item-list .item .icon02 {
+        background-image: url(../image/mobile/disease-icon02.png);
+    }
+    
+    .disease .item-list .item .icon03 {
+        background-image: url(../image/mobile/disease-icon03.png);
+    }
+    
+    .disease .item-list .item .icon04 {
+        background-image: url(../image/mobile/disease-icon04.png);
+    }
+    
+    .disease .item-list .item .chinses-name {
+        display: block;
+        margin-top: 0.21rem;
+        font-size: 0.34rem;
+        line-height: 0.34rem;
+    }
+    
+    .disease .item-list .item .english-name {
+        display: block;
+        margin-top: 0.08rem;
+        font-size: 0.2rem;
+        line-height: 0.2rem;
+    }
+    /* 儿童基因 */
+    
+    .gene {
+        text-align: center;
+    }
+    
+    .gene img {
+        margin-top: 0.62rem;
+        width: 100%;
+        height: 6.0rem;
+    }
+    /* 女性关怀 */
+    
+    .women {
+        text-align: center;
+        position: relative;
+        z-index: 0;
+        padding-bottom: 5.05rem;
+    }
+    
+    .women .img {
+        width: 100%;
+        position: absolute;
+        top: 0.9rem;
+        left: 0;
+        z-index: -1;
+    }
+    
+    .women .img img {
+        width: 100%;
+        height: 6.56rem;
+    }
+    /* 报告 */
+    
+    .report {
+        text-align: center;
+    }
+    
+    .report .report-item {
+        padding-top: 0.43rem;
+        padding-bottom: 0.43rem;
+    }
+    
+    .report .report-item .report-row {}
+    
+    .report .report-item .report-row .img-left {
+        width: 3.6rem;
+        height: 7.2rem;
+        vertical-align: middle;
+    }
+    
+    .report .report-item .report-row .img-right {
+        width: 3.0rem;
+        height: 5.10rem;
+        vertical-align: middle;
+    }

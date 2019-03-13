@@ -1,0 +1,87 @@
+
+.content {
+  width: 100%;
+}
+
+.content .content-title {
+  font-size: 0.48rem;
+  font-weight: 400;
+  color: rgba(64, 69, 73, 1);
+  line-height: 0.48rem;
+  margin-top: 0.6rem;
+  text-align: center;
+}
+
+/* 步骤 */
+.step {
+  margin-top: 0.36rem;
+}
+
+.step ul li {
+  position: relative;
+  padding: 0 0 0.4rem 0;
+  border-left: 1px solid rgb(230, 230, 230);
+  margin-left: 0.5rem;
+  list-style:none;
+}
+
+.step ul li:last-child {
+  border-left: none;
+}
+
+.step ul li .icon {
+  display: block;
+  position: absolute;
+  left: -0.27rem;
+  top: 0;
+  width: 0.54rem;
+  height: 0.54rem;
+  background-size: 0.54rem 0.54rem;
+  background-repeat: no-repeat;
+}
+
+.step ul li .name {
+  display: block;
+  position: relative;
+  top: 0.05rem;
+  font-size: 0.34rem;
+  font-weight: 400;
+  color: rgba(64, 69, 73, 1);
+  line-height: 0.34rem;
+  letter-spacing: 0.02rem;
+  margin-left: 0.43rem;
+}
+
+.step ul li .summary {
+  display: block;
+  margin: 0.16rem 0.31rem 0 0.43rem;
+  letter-spacing: 0.01rem;
+  font-size: 0.28rem;
+  font-weight: 400;
+  color: rgba(100, 111, 119, 1);
+  line-height: 0.42rem;
+}
+
+.step ul li .setp1 {
+  background-image: url(../../image/mobile/icon_guomai1.png);
+}
+
+.step ul li .setp2 {
+  background-image: url(../../image/mobile/icon_jhcp.png);
+}
+
+.step ul li .setp3 {
+  background-image: url(../../image/mobile/icon_cjybei.png);
+}
+
+.step ul li .setp4 {
+  background-image: url(../../image/mobile/icon_ybjh.png);
+}
+
+.step ul li .setp5 {
+  background-image: url(../../image/mobile/icon_xzck.png);
+}
+
+.step ul li .setp6 {
+  background-image: url(../../image/mobile/icon_cxfw.png);
+}

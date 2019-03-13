@@ -1,0 +1,202 @@
+.content .item1 {
+    background: rgb(249, 249, 249);
+    width: 100%;
+}
+
+.item1 .pro-title {
+    padding-top: 0.6rem;
+    font-size: 0.48rem;
+    font-family: PingFang-SC-Regular;
+    font-weight: 400;
+    color: rgba(64, 69, 73, 1);
+    line-height: 0.48rem;
+    text-align: center;
+}
+
+.item1 .pro-name {
+    font-size: 0.28rem;
+    font-family: PingFangSC-Regular;
+    font-weight: 400;
+    color: rgba(100, 111, 119, 1);
+    line-height: 0.39rem;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 0.25rem;
+}
+
+.item1 .pro-item {
+    padding: 0.65rem 0 0.5rem 0;
+}
+
+.item1 .pro-item .item {
+    margin: 0 0.4rem 0.3rem 0.4rem;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 0.12rem;
+    padding: 0.33rem
+}
+
+.item1 .pro-item .item .item-content {
+    position: relative;
+    margin-bottom: 0.16rem
+}
+
+.item1 .pro-item .item .item-content .icon {
+    display: inline-block;
+    width: 0.88rem;
+    height: 0.88rem;
+    background-size: 0.88rem 0.88rem;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+.class1-1 {
+    background-image: url(../../image/mobile/icon_tumor.png);
+}
+
+.class1-2 {
+    background-image: url(../../image/mobile/icon_common_disease.png);
+}
+
+.class1-3 {
+    background-image: url(../../image/mobile/icon_infectious.png);
+}
+
+
+.item1 .pro-item .item .item-content .separator {
+    display: inline-block;
+    width: 0.03rem;
+    height: 0.78rem;
+    background: rgba(222, 222, 222, 1);
+    margin: 0 0.4rem 0 0.3rem;
+    vertical-align: middle;
+}
+
+.item1 .pro-item .item .item-content .name {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.item1 .pro-item .item .item-content .name .cn-name {
+    display: block;
+    font-size: 0.34rem;
+    font-family: PingFangSC-Medium;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+    line-height: 0.34rem;
+    margin-bottom: 0.16rem;
+}
+
+.item1 .pro-item .item .item-content .name .en-name {
+    display: block;
+    font-size: 0.24rem;
+    font-family: Helvetica;
+    color: rgba(153, 153, 153, 1);
+    line-height: 0.24rem;
+}
+
+.item1 .pro-item .item .item-content .count {
+    font-size: 0.24rem;
+    font-family: Helvetica;
+    color: rgba(102, 102, 102, 1);
+    line-height: 0.24rem;
+    position: absolute;
+    right: 0;
+    top: 0.1rem;
+}
+
+.item1 .pro-item .item .item-describe {
+    font-size: 0.26rem;
+    font-family: PingFangSC-Regular;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+    line-height: 0.39rem;
+}
+
+/* 检测项目报告显示 */
+.content .item2 {
+    background: rgb(249, 249, 249);
+    width: 100%;
+    padding-bottom: 0.22rem;
+}
+
+.content .graycolor {
+    background: rgb(236, 239, 243);
+}
+
+/* 标题 */
+.item-top {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 0.54rem;
+}
+
+.item-top .name {
+    font-size: 0.36rem;
+    font-family: PingFangSC-Medium;
+    font-weight: 500;
+    color: rgba(64, 69, 73, 1);
+    line-height: 0.36rem;
+    letter-spacing: 0.02rem;
+    vertical-align: middle;
+    margin: 0 0.11rem;
+}
+
+.item-top .line {
+    display: inline-block;
+    width: 1.21rem;
+    height: 1px;
+    background: rgba(230, 230, 230, 1);
+}
+
+.content .item2 .images {
+    margin-top: 0.43rem;
+    text-align: center;
+}
+
+.content .item2 .images i {
+    display: inline-block;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-bottom: 0.28rem;
+    width: 6.6rem;
+    height: 11.26rem;
+    background-size: 6.6rem 11.26rem;
+}
+
+.item2 .images .tumor01 {
+    background-image: url(../../image/mobile/tumor01.png);
+}
+
+.item2 .images .tumor02 {
+    background-image: url(../../image/mobile/tumor02.png);
+}
+
+.item2 .images .tumor03 {
+    background-image: url(../../image/mobile/tumor03.png);
+}
+
+.item2 .images .common-disease01 {
+    background-image: url(../../image/mobile/common-disease01.png);
+}
+
+.item2 .images .common-disease02 {
+    background-image: url(../../image/mobile/common-disease02.png);
+}
+
+.item2 .images .common-disease03 {
+    background-image: url(../../image/mobile/common-disease03.png);
+}
+
+.item2 .images .infectious01 {
+    background-image: url(../../image/mobile/infectious01.png);
+}
+
+.item2 .images .infectious02 {
+    background-image: url(../../image/mobile/infectious02.png);
+}
+
+.item2 .images .infectious03 {
+    background-image: url(../../image/mobile/infectious03.png);
+}

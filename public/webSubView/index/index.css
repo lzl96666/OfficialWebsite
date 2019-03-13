@@ -1,0 +1,412 @@
+        /* main */
+        
+        .item {
+            width: 100%;
+        }
+        
+        .item .content {
+            width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .vertical {
+            height: 100%;
+            vertical-align: middle;
+            display: inline-block
+        }
+        
+        .bgGrey {
+            background: rgba(249, 249, 249, 1);
+        }
+        
+        .pink {
+            color: rgba(243, 100, 100, 1)
+        }
+        
+        .pink2 {
+            color: rgba(255, 124, 131, 1);
+        }
+        
+        .green {
+            color: rgba(73, 150, 18, 1);
+        }
+        
+        .blue {
+            color: rgba(22, 146, 223, 1)
+        }
+        /* swiper */
+        
+        .swiper-container {}
+        
+        .swiper-container .swiper-wrapper {}
+        
+        .swiper-wrapper .img img {
+            width: auto;
+            height: auto;
+            max-width: 100%;
+            max-height: 100%;
+        }
+        /* 解密数字 */
+        
+        .digital {
+            text-align: center;
+            height: 650px;
+        }
+        
+        .digital .title {
+            font-size: 50px;
+            line-height: 50px;
+            color: rgba(64, 69, 73, 1);
+            margin-top: 61px;
+        }
+        
+        .digital .subhead {
+            font-size: 24px;
+            line-height: 24px;
+            letter-spacing: 1px;
+            color: rgba(100, 111, 119, 1);
+            margin-top: 39px;
+        }
+        
+        .digital .item-list {
+            margin-top: 66px;
+        }
+        
+        .digital .item-list .item {
+            display: inline-block;
+            width: 200px;
+            margin-right: 44px;
+            vertical-align: top;
+        }
+        
+        .digital .item-list .item:last-child {
+            margin-right: 0;
+        }
+        
+        .digital .item-list .item .head {
+            display: inline-block;
+            width: 198px;
+            height: 198px;
+            margin-bottom: 8px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        
+        .digital .item-list .item .head i {
+            display: inline-block;
+            width: 168px;
+            height: 168px;
+            background-size: 168px 168px;
+            background-repeat: no-repeat;
+            margin-top: 15px;
+        }
+        
+        .digital .item-list .item .head i.digital01 {
+            background-image: url(../../image/index/digital-01.png);
+        }
+        
+        .digital .item-list .item .head i.digital02 {
+            background-image: url(../../image/index/digital-02.png);
+        }
+        
+        .digital .item-list .item .head i.digital03 {
+            background-image: url(../../image/index/digital-03.png);
+        }
+        
+        .digital .item-list .item .head i.digital04 {
+            background-image: url(../../image/index/digital-04.png);
+        }
+        
+        .digital .item-list .item .head i.digital05 {
+            background-image: url(../../image/index/digital-05.png);
+        }
+        
+        .digital .item-list .item .item-title {
+            color: rgba(100, 111, 119, 1);
+            font-size: 24px;
+            line-height: 24px;
+            margin-bottom: 23px;
+        }
+        
+        .digital .item-list .item .detail {
+            color: rgba(133, 146, 158, 1);
+            font-size: 16px;
+            line-height: 24px;
+        }
+        /* 祖源 */
+        
+        .parentage {
+            height: 700px;
+        }
+        
+        .parentage img {
+            width: 646px;
+            height: 487px;
+            vertical-align: middle;
+        }
+        
+        .parentage .parentage-detail {
+            display: inline-block;
+            width: 500px;
+            vertical-align: middle;
+        }
+        /* 通用 */
+        
+        .content .content-title {
+            color: rgba(64, 69, 73, 1);
+            font-size: 50px;
+            line-height: 50px;
+            margin-bottom: 33px;
+        }
+        
+        .content .content-content {
+            line-height: 29px;
+            letter-spacing: 1px;
+        }
+        /* 健康指南 */
+        
+        .guide {
+            height: 700px;
+        }
+        
+        .guide img {
+            width: 636px;
+            height: 524px;
+            vertical-align: middle;
+        }
+        
+        .guide .guide-detail {
+            display: inline-block;
+            height: 300px;
+            width: 530px;
+            vertical-align: middle;
+        }
+        
+        .guide .guide-detail .guide-img img {
+            width: 100%;
+            height: 100px;
+            margin-top: 74px;
+        }
+        /* 疾病风险 */
+        
+        .diseaseCNTR {
+            width: 100%;
+            height: 700px;
+            background: url(../../image/index/disease-bg.jpg);
+            background-position: center center;
+        }
+        
+        .disease {
+            padding-top: 147px;
+            position: relative;
+            color: rgba(255, 255, 255, 1);
+        }
+        
+        .disease .disease-detail {
+            width: 568px;
+            background: linear-gradient(173deg, rgba(2, 12, 74, 0.5) 0%, rgba(0, 178, 246, 0.5) 100%);
+            border-radius: 12px;
+            padding: 49px 30px;
+        }
+        
+        .disease .disease-detail .disease-title {
+            color: rgba(255, 255, 255, 1);
+        }
+        
+        .disease .disease-detail .disease-content {
+            color: rgba(255, 255, 255, 1);
+        }
+        
+        .disease .disease-item {
+            width: 100%;
+            height: 210px;
+            position: absolute;
+            top: 570px;
+            left: 0;
+            display: flex;
+        }
+        
+        .disease .disease-item .item {
+            display: inline-block;
+            width: 25%;
+            height: 100%;
+            text-align: center;
+        }
+        
+        .disease .disease-item .item.item01 {
+            background: rgba(94, 202, 245, 1);
+        }
+        
+        .disease .disease-item .item.item02 {
+            background: rgba(22, 146, 223, 1)
+        }
+        
+        .disease .disease-item .item.item03 {
+            background: rgba(0, 114, 191, 1)
+        }
+        
+        .disease .disease-item .item.item04 {
+            background: rgba(8, 72, 125, 1)
+        }
+        
+        .disease .disease-item .item i {
+            display: inline-block;
+            width: 72px;
+            height: 72px;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            margin-top: 30px;
+            margin-bottom: 20px
+        }
+        
+        .disease .disease-item .item i.icon01 {
+            background-image: url(../../image/index/disease-icon01.png);
+        }
+        
+        .disease .disease-item .item i.icon02 {
+            background-image: url(../../image/index/disease-icon02.png);
+        }
+        
+        .disease .disease-item .item i.icon03 {
+            background-image: url(../../image/index/disease-icon03.png);
+        }
+        
+        .disease .disease-item .item i.icon04 {
+            background-image: url(../../image/index/disease-icon04.png);
+        }
+        
+        .disease .disease-item .item .chinses-name {
+            display: block;
+            font-size: 28px;
+            font-weight: 500;
+            line-height: 20px;
+        }
+        
+        .disease .disease-item .item .english-name {
+            display: block;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 20px;
+            margin-top: 20px;
+        }
+        /* 儿童基因 */
+        
+        .geneCTNR {
+            padding-top: 80px;
+        }
+        
+        .gene {
+            height: 670px;
+            background-image: url(../../image/index/gene.jpg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+        
+        .gene .gene-detail {
+            width: 500px;
+            position: absolute;
+            top: 350px;
+            right: 26px;
+        }
+        /* 女性关怀 */
+        
+        .womenCTNR {
+            width: 100%;
+            height: 700px;
+            background: url(../../image/index/women-bg.jpg);
+            background-position: center center;
+        }
+        
+        .women {
+            padding-top: 261px;
+            padding-left: 55px;
+        }
+        
+        .women .women-detail {
+            width: 500px;
+        }
+        /* app */
+        
+        .app {
+            height: 790px;
+            text-align: center;
+        }
+        
+        .app .app-title {
+            font-size: 50px;
+            line-height: 50px;
+            margin-top: 120px;
+        }
+        
+        .app .app-img {
+            width: 100%;
+            height: 670px;
+            margin-top: 20px;
+        }
+        
+        .app .app-img img {
+            width: 100%;
+            height: 100%;
+        }
+        /* vedio */
+        
+        .vedio {
+            height: 590px;
+            background: rgba(216, 216, 216, 1);
+            position: relative;
+            overflow: hidden;
+            z-index: 0;
+        }
+        
+        .vedio .vedioCalss {
+            width: 150%;
+            position: absolute;
+            top: -20%;
+            left: -30%;
+            z-index: -9999 !important;
+        }
+        
+        .vedio .bgcolor {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background-color: rgba(6, 6, 6, 0.47);
+            z-index: -8888 !important;
+        }
+        
+        .vedio .vedio-detail {}
+        
+        .vedio .vedio-detail img {
+            display: inline-block;
+            width: 531px;
+            height: 567px;
+            vertical-align: middle;
+            transition: all 0.3s ease-out;
+        }
+        
+        .vedio .vedio-detail img:hover {
+            transform: scale(1.2);
+            transition: all 0.3s ease-out;
+        }
+        
+        .vedio .vedio-detail .vedio-text {
+            display: inline-block;
+            width: 563px;
+            vertical-align: middle;
+            color: rgb(255, 255, 255);
+            text-align: center;
+        }
+        
+        .vedio .vedio-detail .vedio-text .vedio-title {
+            font-size: 48px;
+            line-height: 48px;
+            margin-bottom: 50px;
+        }
+        
+        .vedio .vedio-detail .vedio-text .vedio-content {
+            line-height: 24px;
+            text-align: left;
+        }

@@ -1,0 +1,455 @@
+/* 公共 */
+
+.item {
+    text-align: center;
+    font-size: 0.28rem;
+    font-weight: 400;
+    line-height: 0.28rem;
+    padding-top: 0.5rem;
+}
+
+.item .title {
+    font-size: 0.36rem;
+    font-weight: 500;
+    color: rgba(64, 69, 73, 1);
+    line-height: 0.26rem;
+    letter-spacing: 0.02rem;
+    position: relative;
+    margin-bottom: 0.52rem;
+}
+
+.item .title::before {
+    content: '';
+    display: inline-block;
+    width: 1.95rem;
+    border-bottom: 1px solid rgba(221, 221, 221, 1);
+    position: absolute;
+    top: 0.12rem;
+    left: 0.61rem;
+}
+
+.item .title::after {
+    content: '';
+    display: inline-block;
+    width: 1.95rem;
+    border-bottom: 1px solid rgba(221, 221, 221, 1);
+    position: absolute;
+    top: 0.12rem;
+    right: 0.61rem;
+}
+
+.vertical {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.bgGrey {
+    background: rgba(249, 249, 249, 1);
+}
+
+
+/* 全基因测序 */
+
+.product {
+    text-align: center;
+    padding-top: 0.6rem;
+    font-weight: 400;
+}
+
+.product .title {
+    font-size: 0.48rem;
+    color: rgba(64, 69, 73, 1);
+    line-height: 0.48rem;
+}
+
+.product .title .bgBlue {
+    background: rgba(109, 193, 241, 1);
+    padding: 0 0.11rem;
+    border-radius: 0.06rem;
+    color: rgba(255, 255, 255, 1);
+}
+
+.product .price {
+    font-size: 0.48rem;
+    font-family: Arial-BoldMT;
+    color: rgba(239, 64, 61, 1);
+    line-height: 0.48rem;
+    margin-top: 0.25rem;
+}
+
+.product .presentation {
+    text-align: left;
+    font-size: 0.26rem;
+    color: rgba(100, 111, 119, 1);
+    line-height: 0.39rem;
+    letter-spacing: 1px;
+    width: 6.7rem;
+    margin: 0 auto;
+    margin-top: 0.53rem;
+    margin-bottom: 0.31rem
+}
+
+.product .img {
+    width: 100%;
+    height: 4.0rem;
+}
+
+
+/* features */
+
+.features {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    padding-bottom: 0.30rem;
+}
+
+.features .table {
+    text-align: left;
+    font-size: 0.22rem;
+    color: rgba(133, 146, 158, 1);
+    line-height: 0.14rem;
+    letter-spacing: 0.01rem;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(221, 221, 221, 1);
+}
+
+.features .table .row {
+    /* height: 1.3rem; */
+    border-bottom: 1px solid rgba(221, 221, 221, 1);
+    padding-top: 0.35rem;
+    padding-bottom: 0.35rem
+}
+
+.features .table .row:last-child {
+    border-bottom: none;
+}
+
+.features .table .row i {
+    display: inline-block;
+    width: 0.54rem;
+    height: 0.54rem;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin: 0 0.46rem;
+    background-size: 100% 100%;
+}
+
+.features .table .row i.icon01 {
+    background-image: url(../../image/mobile/features01.png);
+}
+
+.features .table .row i.icon02 {
+    background-image: url(../../image/mobile/features02.png);
+}
+
+.features .table .row i.icon03 {
+    background-image: url(../../image/mobile/features03.png);
+}
+
+.features .table .row i.icon04 {
+    background-image: url(../../image/mobile/features04.png);
+}
+
+.features .table .row i.icon05 {
+    background-image: url(../../image/mobile/features05.png);
+}
+
+.features .table .row i.icon06 {
+    background-image: url(../../image/mobile/features06.png);
+}
+
+.features .table .row i.icon07 {
+    background-image: url(../../image/mobile/features07.png);
+}
+
+.features .table .row i.icon08 {
+    background-image: url(../../image/mobile/features08.png);
+}
+
+.features .table .row i.icon09 {
+    background-image: url(../../image/mobile/features09.png);
+}
+
+.features .table .row .detail {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 5.1rem;
+}
+
+.features .table .row .top {}
+
+.features .table .row .content {
+    margin-top: 0.16rem;
+    font-size: 0.3rem;
+    color: rgba(100, 111, 119, 1);
+    line-height: 0.45rem;
+}
+
+.features .table .row .content .express {
+    display: inline-block;
+    width: 0.36rem;
+    height: 0.36rem;
+    background: url(../../image/mobile/icon-express.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+
+/* 检测项目 */
+
+.test {
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    padding-bottom: 0.14rem;
+}
+
+
+/* 表格 */
+
+.test .table {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.35rem !important;
+    border-collapse: separate !important;
+    border: 1px solid rgba(221, 221, 221, 1);
+    background-color: rgba(255, 255, 255, 1);
+    border-spacing: 0;
+    font-size: 0.28rem;
+    line-height: 0.33rem;
+}
+
+.test .table thead {}
+
+.test .table thead tr th {
+    border-bottom: 1px solid rgba(221, 221, 221, 1);
+    border-top: 0;
+    height: 1.7rem;
+    text-align: center;
+}
+
+.test .table thead tr th i {
+    display: inline-block;
+    width: 0.8rem;
+    height: 0.8rem;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.test .table thead tr th .icon01 {
+    background-image: url(../../image/mobile/zljb.png);
+}
+
+.test .table thead tr th .icon02 {
+    background-image: url(../../image/mobile/cjjb.png);
+}
+
+.test .table thead tr th .icon03 {
+    background-image: url(../../image/mobile/crjb.png);
+}
+
+.test .table .thead tr th .item-name {
+    font-weight: 500;
+    margin-top: 0.16rem;
+}
+
+.test .table tbody tr {}
+
+.test .table tbody tr:last-child {
+    border-bottom: 0;
+}
+
+.test .table tbody tr:nth-child(odd) {
+    background: rgba(249, 249, 249, 1);
+}
+
+.test .table tbody tr td {
+    width: 33.3%;
+    height: 1rem;
+    border-bottom: 1px solid rgba(221, 221, 221, 1);
+    padding-left: 0.14rem;
+    padding-right: 0.14rem;
+}
+
+.test .table tbody tr td .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test .table tbody tr td .content span {
+    display: inline-block;
+}
+
+.test .table tbody tr td .content .img {}
+
+.test .table tbody tr td .content .sex-img {
+    display: inline-block;
+    width: 0.34rem;
+    height: 0.34rem;
+    vertical-align: middle;
+}
+
+
+/* 适用人群 */
+
+.people {
+    padding-left: 0.31rem;
+    padding-right: 0.31rem;
+    padding-bottom: 0.48rem;
+}
+
+.people .people-img {
+    width: 100%;
+    height: 4.59rem;
+}
+
+.people .people-list {
+    margin-top: 0.15rem;
+}
+
+.people .people-list .people-list-item {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin-top: 0.35rem
+}
+
+.people .people-list .people-list-item i {
+    display: inline-block;
+    width: 0.36rem;
+    height: 0.36rem;
+    background: url(../../image/mobile/icon_dagou.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 0.28rem;
+    margin-right: 0.31rem
+}
+
+.people .people-list .people-list-item span {
+    max-width: 5.9rem;
+    font-size: 0.3rem;
+    color: rgba(100, 111, 119, 1);
+    line-height: 0.45rem;
+}
+
+
+/* 服务流程 */
+
+.progress {
+    padding-left: 0.26rem;
+    padding-right: 0.26rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+.progress .step {
+    margin-bottom: 0.38rem;
+    position: relative;
+}
+
+.progress .step:last-child {
+    margin-bottom: 0
+}
+
+.progress .step i {
+    display: inline-block;
+    width: 1.47rem;
+    height: 1.47rem;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100% 100%;
+}
+
+.progress .step i::after {
+    display: inline-block;
+    content: '';
+    border-left: 1px solid rgba(0, 148, 234, 1);
+    height: 0.45rem;
+    position: absolute;
+    top: 1.47rem;
+    left: 0.735rem;
+}
+
+.progress .step:last-child i::after {
+    display: none;
+}
+
+.progress .step i.step1 {
+    background-image: url(../../image/mobile/icon_step1.png);
+}
+
+.progress .step i.step2 {
+    background-image: url(../../image/mobile/icon_step2.png);
+}
+
+.progress .step i.step3 {
+    background-image: url(../../image/mobile/icon_step3.png);
+}
+
+.progress .step i.step4 {
+    background-image: url(../../image/mobile/icon_step4.png);
+}
+
+.progress .step i.step5 {
+    background-image: url(../../image/mobile/icon_step5.png);
+}
+
+.progress .step .step-text {
+    display: inline-block;
+    width: 2.51rem;
+    text-align: left;
+}
+
+.progress .step .right {
+    position: absolute;
+    right: 0;
+    top: 0.25rem;
+}
+
+.progress .step .left {
+    position: absolute;
+    left: 0;
+    top: 0.25rem;
+}
+
+.progress .step .step-text .step-title {
+    font-size: 0.36rem;
+    line-height: 0.29rem;
+    letter-spacing: 0.02rem;
+}
+
+.progress .step .step-text .step-detail {
+    margin-top: 0.24rem;
+    letter-spacing: 0.01rem;
+    font-size: 0.28rem;
+    font-weight: 300;
+    line-height: 0.34rem;
+}
+
+
+/* 立即购买 */
+
+.buy {
+    width: 100%;
+    height: 0.9rem;
+    background: rgba(245, 245, 245, 1);
+    padding: 0.25rem 0;
+    position: fixed;
+    bottom: 0;
+}
+
+.buy .buyBg {
+    font-size: 0.32rem;
+    color: rgba(255, 255, 255, 1);
+    line-height: 0.45rem;
+    background: rgba(0, 148, 234, 1);
+    width: 3.0rem;
+    height: 0.9rem;
+    border-radius: 0.5rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

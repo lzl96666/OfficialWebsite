@@ -1,0 +1,65 @@
+.content {
+    max-width: 1920px;
+    background: rgba(249, 249, 249, 1);
+    padding-bottom: 80px
+}
+
+.content .banner {
+    width: 100%;
+    height: 380px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../../image/guwomen.jpg);
+    background-position: center center;
+}
+
+.content .item {
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 1083px;
+    background: rgb(255, 255, 255)
+}
+
+
+/* 标题 */
+
+.item .title {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.item .title .name {
+    font-size: 36px;
+    font-family: PingFangSC-Medium;
+    font-weight: 500;
+    color: rgba(64, 69, 73, 1);
+    line-height: 36px;
+    letter-spacing: 2px;
+    vertical-align: middle;
+    margin: 0 14px;
+}
+
+.item .title .line {
+    display: inline-block;
+    width: 134px;
+    height: 1px;
+    background: rgba(230, 230, 230, 1);
+}
+
+.about-content {
+    width: 960px;
+    height: 146px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(100, 111, 119, 1);
+    line-height: 29px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.company-photo {
+    padding-top: 50px;
+}
