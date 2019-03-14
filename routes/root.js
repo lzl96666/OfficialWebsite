@@ -1,18 +1,19 @@
 var express = require('express');
-var path = require('path');
+var path=require('path');
 var router = express.Router();
 router.all('/*', function(req, res, next) {
     next();
 });
+
 //主页
 router.get("/", function(req, res, next) {
     var deviceAgent = req.headers["user-agent"].toLowerCase();
-    var reg = /(iphone|ipod|ipad|android)/;
+    var reg=/(iphone|ipod|ipad|android)/;
     var isMobile = reg.test(deviceAgent);
     if (isMobile) {
-        return res.sendFile(path.join(__dirname, '../public/mobile-index.html'));
+        return res.sendFile(path.join(__dirname,'../public/mobile-index.html'));
     } else {
-        return res.sendFile(path.join(__dirname, '../public/web-index.html'));
+        return res.sendFile(path.join(__dirname,'../public/web-index.html'));
     }
 })
 

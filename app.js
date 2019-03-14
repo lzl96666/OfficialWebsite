@@ -5,10 +5,10 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 
 //ip&port
-var hostName = '172.17.61.226';
-var port = 8040;
+var hostName = '192.168.0.133';
+var port = 3000;
 
-//设置需要渲染的目录下模板文件lzl
+//设置需要渲染的目录下模板文件
 app.set("views", "public");
 app.set("view engine", "ejs");
 //静态资源

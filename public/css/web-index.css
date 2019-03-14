@@ -89,7 +89,7 @@
 
 .footer {
     background: rgba(46, 48, 51, 1);
-    height: 300px;
+    /* height: 300px; */
 }
 
 .footer .content {
@@ -97,6 +97,7 @@
     line-height: 22px;
     color: rgba(133, 146, 158, 1);
     padding-top: 52px;
+    padding-bottom: 12px;
 }
 
 .footer .content .top {
@@ -271,9 +272,19 @@
     font-size: 12px;
     line-height: 17px;
     text-align: center;
+}
+
+.footer .content .bottom div {
     margin-top: 12px;
 }
 
 .footer .content .bottom span:first-child {
     margin-right: 18px;
+}
+
+
+/* 取消A标签默认颜色 */
+
+.footer a {
+    color: rgba(133, 146, 158, 1);
 }

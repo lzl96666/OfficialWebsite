@@ -40,7 +40,9 @@
 
 .item1 .item1-content .pro-summary {
     text-align: center;
+    margin: 0 auto;
     margin-top: 31px;
+    max-width: 957px;
 }
 
 .item1 .item1-content .pro-summary p {
