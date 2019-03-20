@@ -1,43 +1,43 @@
 .content {
-  width: 100%
+    width: 100%
 }
 
 .content .content-title {
-  font-size: 0.48rem;
-  font-weight: 400;
-  color: rgba(64, 69, 73, 1);
-  line-height: 0.48rem;
-  margin-top: 0.62rem;
-  text-align: center;
+    font-size: 0.48rem;
+    font-weight: 400;
+    color: rgba(64, 69, 73, 1);
+    line-height: 0.48rem;
+    margin-top: 0.62rem;
+    text-align: center;
 }
 
 .content .summary {
-  height: 4.56rem;
-  font-size: 0.26rem;
-  font-weight: 400;
-  color: rgba(100, 111, 119, 1);
-  line-height: 0.39rem;
-  margin-top: 0.42rem;
-  margin-left: 0.39rem;
-  margin-right: 0.4rem;
+    height: 4.56rem;
+    font-size: 0.26rem;
+    font-weight: 400;
+    color: rgba(100, 111, 119, 1);
+    line-height: 0.39rem;
+    margin-top: 0.42rem;
+    margin-left: 0.39rem;
+    margin-right: 0.4rem;
 }
 
 .content .img-1 {
-  height: 6.75rem;
-  background: url(../../image/mobile/pic_gywm.png);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  margin-left: 0.24rem;
-  margin-right: 0.25rem;
+    height: 6.75rem;
+    background: url(../../image/mobile/pic_gywm.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 0.24rem;
+    margin-right: 0.25rem;
 }
 
 .content .img-2 {
-  height: 10.16rem;
-  background: url(../../image/mobile/pic_gywm2.png);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  margin-top: 0.2rem;
-  margin-left: 0.24rem;
-  margin-right: 0.25rem;
-  margin-bottom: 0.39rem;
+    height: 10.16rem;
+    background: url(../../image/mobile/pic_gywm2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: 0.2rem;
+    margin-left: 0.24rem;
+    margin-right: 0.25rem;
+    margin-bottom: 0.39rem;
 }
